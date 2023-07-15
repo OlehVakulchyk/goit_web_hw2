@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "goit-web-hw2"
+version = "0.1.0"
+description = "home work web_2"
+authors = ["OlehVakulchyk <4020405@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_web_hw2"}]
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+black = "^23.7.0"
+prompt-toolkit = "^3.0.39"
+rarfile = "^4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
